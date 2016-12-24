@@ -17,7 +17,42 @@
 		margin: auto
 		margin-top: 20px
 
+@media only screen and (max-width : 1280px)
+	.owl-carousel .owl-item:hover		
+		box-shadow: none
+
+	span.addtocart-button.jutooltip input.addtocart-button
+		width: 125px $i
+		height: 40px $i
+		background-color: rgb(240, 100, 35) $i
+		background-image: linear-gradient(to top, rgb(245, 80, 4) 0%, rgb(240, 100, 35) 100%) $i
+		border: 1px solid rgb(245, 80, 4) $i
+		border-radius: 5px $i
+		overflow: hidden $i
+		display: block $i
+		color: white $i
+		font-family: PTSans $i
+		font-size: 16px $i
+		font-weight: 400 $i
+		
+	.vina-vmproduct .button-container > div i
+	  left: auto
+	  right: 30px
+	  margin-top: -13px
+	  font-size: 17px
+
+	.fa-shopping-cart::before
+	  content: ""
+	  font-family: FontAwesome  
+	  font-size: 17px
+
+
+
+
 @media only screen and (max-width : 1200px) 
+	.vina-vmproduct .button-container > div i
+		right: 15px
+
 	#sp-top3-sticky-wrapper
 		#sp-top3
 			position: relative $i
@@ -65,7 +100,20 @@
 	
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) 	
+@media only screen and (max-width : 768px) 
+	.vina-carousel-virtuemart .owl-controls .owl-buttons div.owl-prev, .vina-carousel-content .owl-controls .owl-buttons div.owl-prev
+		left: 18px $i
+	
+	.vina-carousel-virtuemart .owl-controls .owl-buttons div.owl-next, .vina-carousel-content .owl-controls .owl-buttons div.owl-next
+		right: 18px $i
+		
+
+	.vina-vmproduct .button-container > div input
+		text-indent: 0
+	
+	.vina-vmproduct .button-container > div i
+		display: none
+	
 	#sp-top3-sticky-wrapper #sp-top3 > .sp-column
 		width: 100%
 	#sp-top3-sticky-wrapper.sticky-wrapper
@@ -89,6 +137,9 @@
 					font-size: 10px
 					padding: 4px 5px
 	
+@media only screen and (max-width : 450px) 
+	.vina-vmproduct .button-container > div
+		width: 125px
 		
 @media only screen and (max-width : 360px) 
 	/**/
@@ -118,3 +169,10 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) 
 	/**/
+@media only screen and (min-width : 1280px) 
+	#vina-carousel-virtuemart119  
+		box-sizing: border-box
+		padding-left: 5px $i
+
+	.owl-carousel .owl-item
+	  width: 295px $i	
