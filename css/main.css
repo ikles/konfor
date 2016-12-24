@@ -327,6 +327,44 @@
   font-size: 34px;
   color: #FFF !important; }
 
+#sp-cate-banner12 {
+  padding: 0; }
+  #sp-cate-banner12 .sp-module {
+    width: 570px;
+    float: left;
+    margin-top: 0 !important; }
+    #sp-cate-banner12 .sp-module:first-child {
+      margin-right: 30px; }
+
+.home1-catebanner .banner-box .box-inner2 .text, .home1-catebanner .banner-box .box-inner3 .text, .home1-catebanner .banner-box .box-inner5 .text {
+  background-color: #f06423 !important; }
+
+#sp-bottom {
+  background-color: #5e5e5e;
+  color: #FFF;
+  padding: 48px 0; }
+  #sp-bottom .row .col-sm-6.col-md-3 a {
+    padding: 0; }
+    #sp-bottom .row .col-sm-6.col-md-3 a:hover {
+      background-color: transparent; }
+
+.home1-catebanner .banner-box .box-inner2 .text a, .home1-catebanner .banner-box .box-inner3 .text a, .home1-catebanner .banner-box .box-inner5 .text a {
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+
+#sp-footer {
+  background-color: #5e5e5e; }
+
+#sp-bottom1 .custom {
+  font-family: PTSans; }
+  #sp-bottom1 .custom h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  #sp-bottom1 .custom p {
+    font-size: 14px; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1600px) {
@@ -374,6 +412,10 @@
     font-size: 17px; } }
 
 @media only screen and (max-width: 1200px) {
+  #sp-cate-banner12 .sp-module {
+    width: 45%;
+    margin-right: 2%;
+    margin-left: 2%; }
   .vina-vmproduct .button-container > div i {
     right: 15px; }
   #sp-top3-sticky-wrapper #sp-top3 {
@@ -413,6 +455,11 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  #sp-cate-banner12 .sp-module {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px; }
   .vina-carousel-virtuemart .owl-controls .owl-buttons div.owl-prev, .vina-carousel-content .owl-controls .owl-buttons div.owl-prev {
     left: 18px !important; }
   .vina-carousel-virtuemart .owl-controls .owl-buttons div.owl-next, .vina-carousel-content .owl-controls .owl-buttons div.owl-next {
