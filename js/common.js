@@ -4,10 +4,9 @@ jQuery(function() {
 
 
 
+ 
+jQuery('.productdetails-view.productdetails .vm-price-value').prepend(jQuery('.box-container2 .availability.out-of-stock'));
 
-  
-
-
-
+jQuery('.productdetails-view .vina-des-wrapper .price-box .vm-price-value .PricesalesPrice').after(jQuery('.box-container2 .product-rating'));
 
 });

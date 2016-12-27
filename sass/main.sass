@@ -266,7 +266,6 @@ $tr: transparent
   bottom: 0
   width: 100%
   text-align: center
-  
 
 .box-des
   bottom: 110px
@@ -353,6 +352,7 @@ $tr: transparent
   background-color: rgb(240, 100, 35) $i
 
 #sp-bottom
+  font-family: PTSans
   background-color: rgb(94, 94, 94)
   color: #FFF 
   padding: 48px 0
@@ -360,8 +360,26 @@ $tr: transparent
     .col-sm-6.col-md-3
       a
         padding: 0
+        color: rgb(194, 194, 194)
+        font-size: 14px
+        text-decoration: underline
         &:hover
           background-color: $tr 
+        &:active
+          background-color: $tr
+        &:focus
+          background-color: $tr
+      h3
+        font-size: 16px
+        text-transform: none
+        margin-bottom: 10px $i
+
+#sp-bottom4
+  h3
+    font-size: 18px
+    font-weight: 700 
+  p
+    font-size: 14px
 
 .home1-catebanner .banner-box .box-inner2 .text a, .home1-catebanner .banner-box .box-inner3 .text a, .home1-catebanner .banner-box .box-inner5 .text a 
   border-radius: 5px
@@ -370,20 +388,192 @@ $tr: transparent
   background-color: rgb(94, 94, 94)
 
 #sp-bottom1
+  width: 285px
+  margin-right: 87px
   .custom
     font-family: PTSans
     h3       
       font-size: 18px
       font-weight: 700
-      text-transform: uppercase
+      text-transform: uppercase $i
       margin-bottom: 10px
     p
       font-size: 14px
 
+#sp-bottom2
+  width: 95px
+  margin-right: 170px
+
+#sp-bottom3
+  width: 175px
+  
+#sp-bottom4
+  float: right
+  text-align: right
   
 
 
+.cf_filtering_knob_from 
+  background-image: url("../images/slider_knob_to.png")
+  background-position: center -19px
+  &:hover
+    background-position: center 12px
 
+.vina-vmproduct .pro-detail a
+  display: none $i
+
+#vm-products-category
+  .vina-vmproduct .price-box
+    bottom: 55px
+  .vina-vmproduct .image-block
+    padding-bottom: 130px
+    &:hover      
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)
+      span.addtocart-button input.addtocart-button, span.addtocart-button input.notify-button
+          width: 125px $i
+          height: 40px $i
+          background-color: rgb(240, 100, 35) $i
+          background-image: linear-gradient(to top, rgb(245, 80, 4) 0%, rgb(240, 100, 35) 100%) $i
+          border: 1px solid rgb(245, 80, 4) $i
+          border-radius: 5px $i
+          overflow: hidden $i
+          display: block $i
+          color: white $i
+          font-family: PTSans $i
+          font-size: 16px $i
+          font-weight: 400 $i
+          padding-left: 0 $i
+
+
+  .jutooltip.link-review
+    display: none $i
+
+  .fa.fa-shopping-cart
+    left: auto
+    right: 30px
+    margin-top: -13px
+    font-size: 17px
+
+  .fa.fa-shopping-cart::before
+    content: ""
+    font-family: FontAwesome  
+    font-size: 17px
+
+.vina-vmproduct .button-container > div button, .vina-vmproduct .button-container > div a
+  color: $tr 
+
+
+
+
+#sp-left .sp-module .sp-module-title, #sp-right .sp-module .sp-module-title
+  color: rgb(53, 53, 53)
+  font-family: PTSans
+  font-size: 18px
+  font-weight: 400
+  background-color: $tr
+  padding: 0 
+
+
+.cf_flt_header
+  span
+    font-family: PTSans
+    color: rgb(53, 53, 53)
+    font-size: 18px
+    font-weight: 700
+
+.headexpand_show, .headexpand.headexpand_hide
+  display: none
+
+.cf_filters_list li .cf_option
+  color: rgb(113, 113, 113)
+  font-size: 16px
+  font-weight: 400
+  padding-left: 13px $i
+
+.cf_filters_list li
+  margin-bottom: 15px
+
+.cf_flt_header span
+  display: block
+  margin-bottom: 10px
+
+input[type=checkbox].cf_flt
+  margin-top: 15px
+
+.cf_flt_wrapper.cf_flt_wrapper_ltr
+  border-bottom: 1px solid rgb(218, 218, 218)
+  
+#cf_flt_wrapper_price_167
+  border: none
+.cf_sel_opt
+  .cf_option.cf_sel_opt
+    color: rgb(240, 100, 35)
+
+.product-nav
+  border-bottom: none
+
+h1.product-name
+  font-family: PTSans
+  color: rgb(53, 53, 53)
+  font-size: 24px
+  font-weight: 700
+  text-transform: uppercase
+
+.productdetails-view.productdetails
+  .price-box
+    margin-top: 0
+    border-bottom: none
+  .vm-price-value
+    text-align: left
+    display: block $i
+    width: 100%
+  .availability.out-of-stock
+    display: block
+    text-align: left
+    width: 100%
+    font-family: PTSans
+    margin-bottom: 20px
+    span
+      color: rgb(194, 194, 194) $i
+      font-size: 16px
+      font-weight: 400
+  .box-container2
+    border: none
+    padding: 0
+  .product-rating
+    text-align: right
+    display: inline-block
+    float: right
+    margin-top: 10px
+    a
+      color: rgb(194, 194, 194)      
+      font-size: 14px
+      font-weight: 400
+      text-transform: uppercase
+    .separator
+      display: none
+  .product-short-description
+    color: rgb(113, 113, 113)
+    font-family: PTSans
+    font-size: 16px
+    font-weight: 400
+    margin-top: 0
+
+  .product-fields-title-wrapper .product-fields-title
+    color: rgb(113, 113, 113)
+    font-family: PTSans
+    font-size: 16px
+    font-weight: 700
+    &:before
+      display: none
+    
+  .cf4all_no_color_btn
+    text-align: center
+    width: 80px
+    height: 25px
+    border: 1px solid rgb(113, 113, 113)
+    border-radius: 5px
+    
 
 
 
