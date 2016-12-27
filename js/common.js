@@ -9,4 +9,6 @@ jQuery('.productdetails-view.productdetails .vm-price-value').prepend(jQuery('.b
 
 jQuery('.productdetails-view .vina-des-wrapper .price-box .vm-price-value .PricesalesPrice').after(jQuery('.box-container2 .product-rating'));
 
+jQuery('.product-field-display').parent().addClass('mla');
+
 });

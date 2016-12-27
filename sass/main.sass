@@ -520,6 +520,7 @@ h1.product-name
   text-transform: uppercase
 
 .productdetails-view.productdetails
+  font-family: PTSans
   .price-box
     margin-top: 0
     border-bottom: none
@@ -572,8 +573,136 @@ h1.product-name
     width: 80px
     height: 25px
     border: 1px solid rgb(113, 113, 113)
+    padding-top: 3px
     border-radius: 5px
+    color: rgb(113, 113, 113)
+    font-family: PTSans
+    font-size: 16px
+    font-weight: 400              
+    background-color: $tr 
+  
+  .product-fields
+    width: 100%
+  .product-fields-title-wrapper
+    float: left
+    height: auto
+    padding: 0
+    margin-right: 5px
+    min-width: auto 
+  .product-field-display
+    float: left
+    vertical-align: middle
+    display: inline-block
+    height: auto
+    padding: 0 
+    font-size: 16px
+    font-weight: 400 
+    color: rgb(113, 113, 113)    
+
+
+.productdetails-view .addtocart-area .product-fields > div.even
+  margin-left: 0
+
+.cf4all_buttons input[type="radio"]:checked + label, .cf4all_buttons input[type="checkbox"]:checked + label, .cf4all_color_buttons input[type="radio"]:checked + label, .cf4all_color_buttons input[type="checkbox"]:checked + label    
+  border: 2px solid rgb(240, 100, 35) $i  
+  box-shadow: none
+  color: rgb(240, 100, 35) $i   
+
+.product-field.product-field-type-E.odd
+  width: 72px $i  
+  margin-bottom: 0
+  margin-top: 8px
     
+.product-field.product-field-type-E.odd.mla
+  width: 80% $i
+  margin-top: 0
+
+  font-family: PTSans
+
+.characteristics
+  color: rgb(53, 53, 53)
+  font-size: 18px
+  font-weight: 700
+  display: block
+  text-align: left
+  width: 100%
+  float: left
+  margin-top: 10px
+
+.addtocart-button.jutooltip
+  width: 125px
+  height: 40px
+  background-color: #F4560D $i
+  text-align: center  
+  box-sizing: border-box
+  padding: 0 $i  
+  border-radius: 5px $i
+  overflow: hidden
+  line-height: 1 $i
+  &:after
+    color: white
+    content: ""
+    font-family: FontAwesome
+    font-size: 14px
+    font-weight: 400
+    margin-left: 8px
+    margin-top: 2px
+  input
+    font-size: 16px $i
+    line-height: 1 $i
+    
+
+.productdetails-view span.addtocart-button::before
+  content: "" 
+
+.product-field-desc
+  display: none
+
+.productdetails-view
+  border: none
+  #vina-tab
+    border: none
+    #vinaTabContent > div
+      border: none
+      background-color: $tr
+      color: rgb(113, 113, 113)
+      font-size: 16px
+      font-weight: 400
+      padding: 0      
+  
+.productdetails-view #vina-tab > ul
+  border: none
+
+#vina-tab.tab-block
+  background-color: #FBFBFB 
+  padding: 35px 40px  
+  box-sizing: border-box
+
+
+.productdetails-view #vina-tab > ul li a
+  color: rgb(53, 53, 53)
+  font-size: 20px
+  font-weight: 700
+  text-transform: uppercase
+
+.productdetails-view.productdetails
+  .related_prd.product-related-products
+    width: 100%
+    padding: 5px  
+    overflow: hidden  
+    .item.vina-vmproduct 
+      
+      &:hover        
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) 
+  .related_slider.row
+    padding: 0 5px 
+
+#related_caroufredsel
+  padding: 10px
+  overflow: hidden
+  
+
+
 
 
 
